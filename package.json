@@ -1,0 +1,70 @@
+{
+  "name": "midnight-skills",
+  "version": "1.0.9",
+  "description": "Open knowledge skills for AI agents building privacy-preserving apps on Midnight Network — Compact contracts, wallet integration, SDK guides, and runnable templates.",
+  "author": {
+    "name": "Kali-Decoder",
+    "url": "https://github.com/Kali-Decoder"
+  },
+  "contributors": [
+    {
+      "name": "Tusharpamnani",
+      "url": "https://github.com/tusharpamnani"
+    },
+    {
+      "name": "Kali-Decoder",
+      "url": "https://github.com/Kali-Decoder"
+    }
+  ],
+  "homepage": "https://midnight-skills.netlify.app",
+  "repository": "https://github.com/Kali-Decoder/Midnight-skills",
+  "license": "MIT",
+  "keywords": [
+    "midnight",
+    "compact",
+    "web3",
+    "blockchain",
+    "confidential",
+    "privacy",
+    "dapp",
+    "zero-knowledge",
+    "ai-agents"
+  ],
+  "skills": [
+    "./.agents/skills/midnight-environment-setup",
+    "./.agents/skills/why-midnight",
+    "./.agents/skills/zk-vs-fhe-vs-mpc",
+    "./.agents/skills/1am-wallet",
+    "./.agents/skills/react-wallet-connector",
+    "./.agents/skills/compact",
+    "./.agents/skills/testing",
+    "./.agents/skills/multinetwork",
+    "./.agents/skills/midnight-js",
+    "./.agents/skills/indexer",
+    "./.agents/skills/ankr-midnight",
+    "./.agents/skills/security",
+    "./.agents/skills/android-example-voting",
+    "./.agents/skills/example-counter",
+    "./.agents/skills/example-hello-world",
+    "./.agents/skills/example-payment-dapp",
+    "./.agents/skills/example-locker-dapp",
+    "./.agents/skills/example-leaderboard-dapp",
+    "./.agents/skills/example-private-party-dapp",
+    "./.agents/skills/example-private-reserve-auction",
+    "./.agents/skills/example-zk-loan-application",
+    "./.agents/skills/nft",
+    "./.agents/skills/token-transfers",
+    "./.agents/skills/midnight-consensus",
+    "./.agents/skills/midnight-cryptography",
+    "./.agents/skills/midnight-onchain-logic",
+    "./.agents/skills/midnight-p2p-networking",
+    "./.agents/skills/midnight-rpc",
+    "./.agents/skills/midnight-storage",
+    "./.agents/skills/midnight-transactions"
+  ],
+  "scripts": {
+    "validate:registry": "node scripts/validate-registry.mjs",
+    "sync:registry": "node scripts/sync-skill-registry.mjs",
+    "package:registry": "node scripts/package-registry.mjs"
+  }
+}
