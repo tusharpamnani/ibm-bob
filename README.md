@@ -44,7 +44,7 @@ Install the full knowledge base in one command. Agents auto-discover skills from
 <summary><strong>Any agent — Skills CLI (recommended)</strong></summary>
 
 ```bash
-npx skills add Kali-Decoder/Midnight-skills -y
+npx skills add tusharpamnani/Midnight-skills -y
 ```
 
 Browse and search skills at [skills.sh](https://skills.sh/).
@@ -55,7 +55,7 @@ Browse and search skills at [skills.sh](https://skills.sh/).
 <summary><strong>Cursor</strong></summary>
 
 ```bash
-npx skills add Kali-Decoder/Midnight-skills -a cursor -y
+npx skills add tusharpamnani/Midnight-skills -a cursor -y
 ```
 
 Skills install to `.agents/skills/` in your project (or `~/.cursor/skills/` globally with `-g`).
@@ -66,7 +66,7 @@ Skills install to `.agents/skills/` in your project (or `~/.cursor/skills/` glob
 <summary><strong>Claude Code</strong></summary>
 
 ```bash
-npx skills add Kali-Decoder/Midnight-skills -a claude-code -y
+npx skills add tusharpamnani/Midnight-skills -a claude-code -y
 ```
 
 Or install the Claude plugin from `.claude-plugin/`.
@@ -77,7 +77,7 @@ Or install the Claude plugin from `.claude-plugin/`.
 <summary><strong>Codex &amp; other agents</strong></summary>
 
 ```bash
-npx skills add Kali-Decoder/Midnight-skills -a codex -y
+npx skills add tusharpamnani/Midnight-skills -a codex -y
 ```
 
 The Skills CLI supports 70+ agents. See the [supported agents list](https://github.com/vercel-labs/skills#supported-agents).
@@ -304,4 +304,4 @@ your-skill/SKILL.md  →  skills.json  →  npm run sync:registry  →  PR
 
 Released under the [MIT License](LICENSE).
 
-Copyright (c) 2026  Kali-Decoder , Tushar Pamnani.
+Copyright (c) 2026  Tushar Pamnani.
